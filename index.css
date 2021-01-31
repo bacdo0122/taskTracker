@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.app-task{
+    border: 1px solid red;
+    width: 40%;
+    margin: 6% 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+.header{
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;
+}
+.reminder{
+    border-left: 5px solid green;
+  
+}
+.btn{
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: 5px;
+    outline: none;
+}
+.tasks-form{
+   
+    width: 100%;
+   
+}
+.icon{
+    color: red;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.form-inputs{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    flex-direction: column;
+    margin-top: 10px;
+}
+.form-inputs input{
+    width: 95%;
+    padding: 10px 10px;
+    outline: none;
+    margin-top: 10px;
+}
+.form-submit{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #242424;
+    color: aliceblue;
+    margin: 10px 0;
+}
+.form-checkbox{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.form-checkbox input{
+ 
+    margin-left: 40%;
+}

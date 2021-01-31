@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Going to school",
+      "time": "every morning",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "task": "Going to school",
+      "time": "every night",
+      "reminder": false
+    },
+    {
+      "task": "a",
+      "time": "a",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "task": "a",
+      "time": "c",
+      "reminder": true,
+      "id": 5
+    }
+  ]
+}
